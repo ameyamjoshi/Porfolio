@@ -1,0 +1,51 @@
+.baner__container{
+    background-color: #F1F4F8;
+    /* background-color: red; */
+}
+.baner__content{
+    /* margin: 1em; */
+    display: flex;
+    justify-content: center;
+    color: #343A40;
+    padding: 2em;
+}
+.baner__text{
+    margin: 1em;
+    margin-left: 14%;
+    flex:.6
+}
+.baner__image{
+    margin: 2em;
+   flex: .4;
+}
+.baner__image>img{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.text__heading{
+    font-size: 1.25em;
+}
+.text__desc{
+    font-size: 1.5em;
+    color: #343A40;
+    font-weight: lighter;
+}
+.gituhb__button{
+    /* padding: 1em; */
+    margin-top: 1em;
+    /* background-color: #3AB15B; */
+}
+@media (max-width: 800px) {
+    body{
+        width: fit-content;
+    }
+   
+    .baner__content{
+        display: flex;
+        flex-direction: column;
+        margin-top: -2em;
+        align-items: center;
+        
+    }
+
+}

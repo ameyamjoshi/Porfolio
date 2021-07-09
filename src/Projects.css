@@ -1,0 +1,49 @@
+.projects__container{
+    color: #343A40;
+    margin-left: 15%;
+    margin:2%;
+    margin-left: 15%;
+}
+.heading__projects{
+    color: #343A40;
+    font-size: 1.5em;
+    margin-right: 15%;
+
+    font-weight: 600;
+    padding-bottom: .5em;
+    border-bottom: 2px solid black;
+    
+}
+.projects__details{
+    /* margin: 1em; */
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 80%;
+   
+}
+.project__name{
+    font-size: 1.2em;
+    font-weight: 500;
+
+}
+.project__desc{
+    max-width: 15em;
+    font-size: 1.1em;
+    color: #8592AF;
+}
+.each__proj{
+    margin: 2em;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    /* background-color: #F1F4F8; */
+    border-radius: .5em;
+    padding: 1.5em;
+    text-decoration: none;
+    
+}
+a {
+    /* color: #0060B6; */
+    text-decoration: none;
+}
