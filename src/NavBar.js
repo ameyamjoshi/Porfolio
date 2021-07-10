@@ -9,7 +9,7 @@ function NavBar() {
                 <h2> &#128293; Ameya Joshi</h2>
             </div>
             <div className="links">
-                <button className="links__button">Projects</button>
+               <a href="#Projects"> <button className="links__button">Projects</button></a>
                 <button className="links__button">Skills</button>
                 <button className="links__button">Blog</button>
                 <button className="links__button">Resume</button>

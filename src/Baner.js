@@ -1,9 +1,11 @@
 import React from "react";
 import "./Baner.css";
-
+import AOS from 'aos';
 function Baner() {
+  AOS.init();
   return (
-    <div className='baner__container'>
+    <div className='baner__container'data-aos="fade-in" data-aos-easing="linear"
+    data-aos-duration="500">
       <div className="baner__content">
         <div className='baner__text'>
             <div className="text__heading">
@@ -17,7 +19,7 @@ function Baner() {
            <a href="https://www.linkedin.com/in/ameya-joshi19/" target="_blank"><i class="fa fa-linkedin-square" style={{ color:"#343A40",fontSize:"36px"}}></i></a>
             </div>
         </div>
-        <div className='baner__image'>
+        <div  className='baner__image' >
           <img src='https://avatars.githubusercontent.com/u/52293882?v=4' alt='image' height="300px" width="300px"/>
         </div>
       </div>

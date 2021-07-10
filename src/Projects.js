@@ -1,12 +1,14 @@
 import React from 'react'
 import "./Projects.css"
+import AOS from 'aos';
 function Projects() {
+    AOS.init()
     return (
-        <div className="projects__container">
+        <div className="projects__container" id="Projects">
             <div className="heading__projects">
                 Projects
             </div>
-            <div className="projects__details">
+            <div className="projects__details" data-aos="fade-in">
                 <a href="https://reactquiztriviadb.netlify.app/" target="_blank">
                 <div className="each__proj">
                 <div className="project__name">
