@@ -10,7 +10,7 @@ function NavBar() {
             </div>
             <div className="links">
                <a href="#Projects"> <button className="links__button">Projects</button></a>
-                <button className="links__button">Skills</button>
+               <a href="#Skills"> <button className="links__button">Skills</button></a>
                 <button className="links__button">Blog</button>
                 <button className="links__button">Resume</button>
             </div>

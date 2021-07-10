@@ -8,7 +8,7 @@ function Projects() {
             <div className="heading__projects">
                 Projects
             </div>
-            <div className="projects__details" data-aos="fade-in">
+            <div className="projects__details" >
                 <a href="https://reactquiztriviadb.netlify.app/" target="_blank">
                 <div className="each__proj">
                 <div className="project__name">
@@ -29,7 +29,6 @@ function Projects() {
                 </div>
                 </div>
                 </a>   
-
             </div>
         </div>
     )
