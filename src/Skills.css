@@ -1,0 +1,26 @@
+.skills__container{
+    color: #343A40;
+    margin-left: 15%;
+    margin:2%;
+    margin-left: 15%;
+}
+
+.Skills__heading{
+    color: #343A40;
+    font-size: 1.5em;
+    margin-right: 15%;
+    font-weight: 600;
+    padding-bottom: .5em;
+    border-bottom: 2px solid black;
+    
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: space-evenly;
+    
+}
+.each__skill{
+    padding: 1em;
+}
