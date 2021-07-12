@@ -21,13 +21,22 @@ function Skills() {
           <img src="React-icon.svg" height='100px' width='100px' />
         </div>
 
-        {/* <div className='each__skill'>
-          <img src='HTML5_logo_and_wordmark.svg' height='100px' width='100px' />
+        <div className='each__skill'>
+          <img src='elasticsearch.svg' height='140px' width='140px' />
         </div>
 
         <div className='each__skill'>
-          <img src='HTML5_logo_and_wordmark.svg' height='100px' width='100px' />
-        </div> */}
+          <img src='python.svg' height='100px' width='150px' />
+        </div>
+        <div className='each__skill'>
+          <img src='django.svg' height='100px' width='100px' />
+        </div>
+        <div className='each__skill'>
+          <img src='mysql.png' height='100px' width='100px' />
+        </div>
+        <div className='each__skill'>
+          <img src='git.png' height='100px' width='150px' />
+        </div>
       </div>
     </div>
   );

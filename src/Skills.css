@@ -19,8 +19,10 @@
     flex-wrap: wrap;
     margin: 1em;
     justify-content: space-evenly;
+    /* max-width: 900px; */
+    margin-right: 15%;
     
 }
 .each__skill{
-    padding: 1em;
+    padding: 2em;
 }
